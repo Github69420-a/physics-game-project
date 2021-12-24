@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+
+}
+
+
+#ca {
+    background-color: #313d3c;
+
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 750px;
+    height: 750px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+
+#bu {
+    background-color: grey;
+    border: grey;
+}  #bu:active {
+       background-color: darkgray;
+       border: darkgray;
+}  #bu:focus {
+          outline: transparent;
+}
+
+
+.text {
+    color:white;
+    font-size:45px;
+}
+
+

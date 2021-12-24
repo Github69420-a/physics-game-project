@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PinBall!</title>
+    <meta name="author" content="Eddie Federmeyer">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--<script src="../.%23%20Global%20Scripts/p5.js"></script>-->
+    <!--<script src="matter.js"></script>-->
+    <script src="matter.js"></script>
+    <script src="sketch.js"></script>
+
+
+</head>
+<body>
+
+
+<button id="bu" onclick="game.render.options.wireframes = !(game.render.options.wireframes); game.render.options.showAngleIndicator = !(game.render.options.showAngleIndicator);" >
+    Stuff
+</button>
+
+<canvas id="ca" width="750" height="750">
+    HTML canvas not supported by browser!
+</canvas>
+
+<p id="lives" class="text">Lives: 1</p>
+<p id="score" class="text">Score: 0</p>
+<p id="highScore" class="text">High Score: 0</p>
+
+
+</body>
+</html>
